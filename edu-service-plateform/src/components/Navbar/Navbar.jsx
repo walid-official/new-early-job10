@@ -40,7 +40,7 @@ const Navbar = () => {
         <li>
           <details>
             <summary className="font-bold">DashBoard</summary>
-            <ul className=" w-full md:w-72 z-10">
+            <ul className="px-8 w-full md:w-72 z-10">
               <NavLink to="/add-service">
                 {" "}
                 <li className="py-2 font-bold">Add Service</li>{" "}
